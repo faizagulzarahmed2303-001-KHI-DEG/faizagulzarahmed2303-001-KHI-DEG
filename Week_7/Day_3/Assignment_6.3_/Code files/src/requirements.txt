@@ -1,0 +1,2 @@
+rinohtype==0.5.4
+Sphinx==7.0.1

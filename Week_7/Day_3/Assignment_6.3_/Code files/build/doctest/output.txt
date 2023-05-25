@@ -1,0 +1,62 @@
+Results of doctest builder run on 2023-05-25 12:16:32
+=====================================================
+
+Document: src.calculator
+------------------------
+**********************************************************************
+File "src.calculator.rst", line ?, in default
+Failed example:
+    add_positive(2, 3)
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.10/doctest.py", line 1350, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[0]>", line 1, in <module>
+        add_positive(2, 3)
+    NameError: name 'add_positive' is not defined
+**********************************************************************
+File "src.calculator.rst", line ?, in default
+Failed example:
+    add_positive(-1, 1)
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.10/doctest.py", line 1350, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[1]>", line 1, in <module>
+        add_positive(-1, 1)
+    NameError: name 'add_positive' is not defined
+**********************************************************************
+File "../src/calculator/calculator.py", line ?, in default
+Failed example:
+    multiply_positive(2, 3)
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.10/doctest.py", line 1350, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[0]>", line 1, in <module>
+        multiply_positive(2, 3)
+    NameError: name 'multiply_positive' is not defined
+**********************************************************************
+File "../src/calculator/calculator.py", line ?, in default
+Failed example:
+    multiply_positive(-1, 1)
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.10/doctest.py", line 1350, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[1]>", line 1, in <module>
+        multiply_positive(-1, 1)
+    NameError: name 'multiply_positive' is not defined
+**********************************************************************
+1 items had failures:
+   4 of   4 in default
+4 tests in 1 items.
+0 passed and 4 failed.
+***Test Failed*** 4 failures.
+
+Doctest summary
+===============
+    4 tests
+    4 failures in tests
+    0 failures in setup code
+    0 failures in cleanup code
